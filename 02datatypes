@@ -2,7 +2,6 @@
 //alert(3+3)// we are using nodejs, not browser
 console.log (3+3); 
      // code readability should be high
-
 console.log("sameer")
 let name = "sameer"
 let age = 21
@@ -16,7 +15,5 @@ let State = null
 // null => standlone value
 // undefined =>
 // symbol => unique
-
 // object
-
 console.log(typeof null)

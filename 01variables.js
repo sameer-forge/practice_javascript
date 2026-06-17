@@ -1,10 +1,10 @@
 const accountId = 3450 
 let accountEmail = "sameer@google.com"
 var accountPassword ="12345"
-accountCity = "parbatsar"
+accountCity = "delhi"
 let accountState;
 
-accountEmail = "hc@hc.com"
+accountEmail = "sameerforge.com"
 accountPassword = "569"
 accountCity = "jaipur"
 

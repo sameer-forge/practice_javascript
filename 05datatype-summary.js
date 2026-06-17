@@ -16,8 +16,6 @@ console.log( id === anotherId)
 
 const bigNumber =4554655674546n
 
-
-
 // refrence (non primitive)
 
 // Array , Objects
