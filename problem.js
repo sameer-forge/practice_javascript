@@ -3,6 +3,8 @@
 // let age = 21;
 // let city = "jaipur";
 
+const { useReducer } = require("react");
+
 // console.log(`my name is ${name}.`);
 // console.log(`i am ${age} years old.`);
 // console.log(`i live in ${city}.`);
@@ -77,8 +79,46 @@
 // console.log(myCreatedDate.toLocaleDateString(birthYear));
 
 // problem 12
-let today = new Date();
-let nextYear = new Date(today.getFullYear() + 1, 0, 1);
+// let today = new Date();
+// let nextYear = new Date(today.getFullYear() + 1, 0, 1);
 
-console.log((nextYear - today) / ((1000 * 60 * 60 * 24)))
+// console.log((nextYear - today) / ((1000 * 60 * 60 * 24)))
+
+// problem 1
+// let arr = [10,20,30,40,50];
+// console.log(arr);
+
+// // problem 2
+// let arr = [10,20,30,40,50];
+// console.log(arr[0]);
+
+// // problem 3
+// let arr = [10,20,30,40,50];
+// console.log(arr.lenth - 1);
+
+// // problem 4 
+// let arr = [5, 10, 15, 20, 25];
+
+
+
+// // problem 5
+// let arr = [2,4,6,8,10];
+
+// Problem 6
+// let arr = [1,2,3,4,5,6,7,8]
+// console.log(arr[1,3,5,7])
+
+// 2,3,4,5,6,7,8,9,10
+// 6,5,4,3,2,1
+// 10
+// 20
+// 30
+
+
+// problem 1
+// let arr = [5,10,15,]
+// let sum = 0 ;
+// for(let i = 0 ; i < arr.length;i++ ){
+//    sum = sum + arr[i];
+// }
 
