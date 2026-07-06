@@ -1,1 +1,100 @@
+/* =====================================================
+   BASIC STYLING - DOM Revision Page
+===================================================== */
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+  color: #222;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #2c3e50;
+}
+
+p {
+  line-height: 1.5;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px 5px 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li button {
+  background-color: #e74c3c;
+  padding: 4px 10px;
+  font-size: 12px;
+}
+
+li button:hover {
+  background-color: #c0392b;
+}
+
+/* ===== DOM behaviour classes (used by script.js) ===== */
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}

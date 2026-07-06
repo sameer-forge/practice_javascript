@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DOM Revision</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
 
+  <!-- ===== 1. DOM BASICS ===== -->
+  <h1 id="title">Hello DOM</h1>
+
+  <!-- ===== 2. SELECTORS ===== -->
+  <p class="para">Text 1</p>
+  <p class="para">Text 2</p>
+
+  <!-- ===== 4. STYLE / ATTRIBUTE ===== -->
+  <p id="styleDemo">Style change karke dikhao</p>
+
+  <!-- ===== 5. CLASSLIST ===== -->
+  <button id="toggleBtn">Toggle Active Class</button>
+  <p id="classDemo" class="para">ClassList wali line</p>
+
+  <!-- ===== 6. CREATE / REMOVE ELEMENT ===== -->
+  <ul id="list"></ul>
+  <button id="addItemBtn">Add Item</button>
+
+  <!-- ===== 7. EVENTS ===== -->
+  <button id="colorBtn">Change Background Color</button>
+
+  <!-- ===== 8. EVENT DELEGATION (uses #list above) ===== -->
+  <!-- list clicks handled in JS via delegation -->
+
+  <!-- ===== 9. TRAVERSAL ===== -->
+  <div id="parentDiv">
+    Parent
+    <span id="childSpan">Child</span>
+  </div>
+
+  <!-- ===== 10. FORMS ===== -->
+  <input type="text" id="nameInput" placeholder="Type your name" />
+  <p id="output"></p>
+
+  <!-- ===== FINAL PRACTICE: TODO LIST ===== -->
+  <h2>Todo List Practice</h2>
+  <input type="text" id="todoInput" placeholder="Add a todo" />
+  <button id="todoAddBtn">Add Todo</button>
+  <ul id="todoList"></ul>
+
+</div>
+  <script src="13DOM.js"></script>
+</body>
+</html>
