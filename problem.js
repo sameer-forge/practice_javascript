@@ -114,7 +114,6 @@ const { useReducer } = require("react");
 // 20
 // 30
 
-
 // problem 1
 // let arr = [5,10,15,]
 // let sum = 0 ;
