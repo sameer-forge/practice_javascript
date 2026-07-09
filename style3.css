@@ -1,0 +1,30 @@
+.main-content {
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d1117;
+    font-family: 'Segoe UI', sans-serif, ;
+    color: #e0e0e0;
+}
+
+header {
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+#eventForm {
+    width: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+
+    flex-direction: column;
+}

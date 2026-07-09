@@ -156,12 +156,11 @@ for (let i = 0; i < arr10.length; i++) {
     }
 }
 
-if (found) {
-    console.log("Found");
-} else {
-    console.log("Not Found");
+console.log(found === true ? "found" : "not found")
+
+const x = {
+    name: {
+        age: 10
+    }
 }
-
-
-
 

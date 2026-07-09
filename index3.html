@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Life Constellation</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <main class="main-content">
+        <header>
+            <h1>My Life Constellation</h1>
+            <p>Map the stars of your journey</p>
+        </header>
+        <form>
+            <section id="eventForm">
+
+                <label for="eventName">Event Name</label>
+                <input type="text" id="eventName" name="eventName" required>
+
+                <label for="eventDate">Date</label>
+                <input type="date" id="eventDate" name="eventDate" required>
+                <select id="selectOption" name="category" required>
+                    <option value="" disabled selected hidden>Choose an option...</option>
+
+                    <option value="achievement">Achievement</option>
+                    <option value="relationship">Relationship</option>
+                    <option value="milestone">Milestone</option>
+                    <option value="memory">Memory</option>
+                </select>
+
+                <!-- This field is completely optional -->
+                <label for="Description">Description (optional)</label>
+                <textarea name="comments" id="Description" rows="2" cols="40"></textarea>
+                <button type="submit">Submit</button>
+
+
+            </section>
+        </form>
+
+
+
+        <section id="canvas">
+            <canvas id="starCanvas" width="400" height="200">
+            </canvas>
+
+
+
+            <div id="filter-container">
+                <div id="slider-label">
+                    Showing: <span id="yearValue">2026</span>
+                </div>
+
+                <input type="range" id="yearSlider" min="2000" max="2026" value="2026">
+
+            </div>
+
+
+
+        </section>
+        <div id="starDetailModel">
+
+            <h3 id="modelEventName">Event Name</h3>
+            <p id="modelEventDate">Date</p>
+            <p id="modelEventDescription">Description</p>
+
+
+            <button type="button" id="closeModel">Close</button>
+        </div>
+        <section id="action-buttons">
+            <button type="button" id="downloadBtn">Download my Constellation</button>
+            <button type="button" id="clearAllBtn">Clear All</button>
+        </section>
+
+    </main>
+
+    <footer>Sameerforge</footer>
+</body>
+
+</html>
