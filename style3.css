@@ -20,11 +20,4 @@ header {
 }
 
 #eventForm {
-    width: 0%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    display: flex;
-
-    flex-direction: column;
-}
+    
