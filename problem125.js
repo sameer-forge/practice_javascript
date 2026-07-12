@@ -69,3 +69,141 @@
 
 // numbers.push (40);
 // console.log(numbers);
+
+// onject 
+// question1
+
+// let student = {
+//     name : "sameer",
+//     age :20,
+//     course:  "bca",
+//     city : "jaipur",
+// };
+
+// for(let key in student){
+//     console.log(key,student[key])
+// }
+
+// const car = {
+//     brand :"bmw",
+//     model :"x5",
+//     year : 2024
+// };
+
+// for (let key in car){
+//     console.log(key,car[key])
+// };
+
+// const obj = {
+//   a: 10,
+//   b: 20
+// };
+
+// let x = "a";
+// let y = "b";
+
+// console.log(obj.a);
+// console.log(obj["a"]);
+// console.log(obj[x]);
+// console.log(obj.y);
+// console.log(obj[y]);
+
+// const obj1 = {
+//     name : "sameer",
+//     age : 23 , 
+// }
+
+// const obj2 = {
+//     age : 25,
+//     city : "jaipur",
+// }
+
+// const merged = {
+//     ...obj1,...obj2
+
+
+// }
+
+// console.log(merged)
+
+
+// const student = {
+//     name :"sameer" ,
+//     address:{
+//         city : "jaipur",
+//     }
+// };
+
+// const copy = structuredClone(student)
+
+
+// copy.address.city = "Delhi";
+
+// console.log(student.address.city);
+// console.log(copy.address.city);
+
+// const user = {
+//     name: "Sameer",
+//     age: 23
+// };
+
+
+// propertyountry = "india";
+
+// const {
+//     name , age,
+//     Country
+// } = user;
+
+// console.log(name);
+// console.log(age);
+// console.log(Country);
+
+// const user = {
+//     name : "sameer",
+//     age : 21,
+// }
+
+// const{
+//     name:fullName,
+//     age
+// } =user;
+
+// console.log(fullName);
+// console.log(age);
+
+// const user = {
+//     name : "sameer",
+//     address:{
+//         city:"jaipur",
+//         state:"rajsthan",
+//     }
+// };
+
+// const{
+//     address: {
+//         city,state
+//     }
+// } = user;
+
+// console.log(city)
+// console.log(state);
+
+
+// const products =[
+//     {id : 1, stock : 10},
+//     {id : 2, stock : 20},
+//     {id : 3, stock : 15}
+// ]
+// function updateStock(id, newStock){
+//     for (let product of products){
+
+//         if (product.id === id){
+//             product.stock = newStock;
+
+//         }
+            
+//     }
+// };
+// updateStock(3,100)
+// console.log(products);
