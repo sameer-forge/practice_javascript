@@ -117,3 +117,66 @@
 //     {},
 //     {}
 // ]
+
+
+// let student = {
+//     name:"sameer",
+//     age : 20,
+//     class : 5,
+//     isboy : true,
+// }
+
+
+// const user = Object.create(student)
+// console.log(user.name)
+// console.log(user.class)
+
+// const person = {
+//     city :"delhi"
+// };
+
+// const user = Object.create(person);
+
+// user.city = "Mumbai" ; 
+
+// console.log(user.city);
+// console.log(person.city);
+
+// let person1 = {
+//     name: "sameer",
+//     lastName: "khan"
+// }
+
+// const person2 = { Name: "aman", LastName: "loso" };
+// Object.assign(person1, person2);
+
+// console.log(person1)
+
+
+// const person = {
+//     name: "sameer",
+//     age: 20,
+//     isStudent: true
+// }
+
+// const x = person
+// x.age = 30
+
+// console.log(x)
+
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    id: 5566,
+    fullName: function () {
+        return this.firstName + " " + this.lastName;
+    }
+};
+
+console.log(person.test)
+
+
+
+
+
