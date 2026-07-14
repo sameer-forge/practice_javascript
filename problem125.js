@@ -202,8 +202,77 @@
 //             product.stock = newStock;
 
 //         }
-            
+
 //     }
 // };
 // updateStock(3,100)
 // console.log(products);
+
+// ##fuction
+// question1
+
+// function greet(name = "guest"){
+//     console.log ("hello",name)
+
+// }
+
+// greet("sameer")
+// greet();
+
+
+
+// function myMap(arr, callback) {
+//     const result = [];
+
+//     for (let num of arr) {
+//         result.push(callback(num));
+//     }
+
+//     return result;
+// }
+
+// function double(num) {
+//     return num * 2;
+// }
+
+// console.log(myMap([1, 2, 3], double));
+
+
+// function average(...numbers) {
+//     let sum = 0;
+//     for (let num of numbers) {
+//         sum += num;
+//         average = sum/numbers.length;
+
+//     }
+//      return sum/numbers.length
+
+
+
+// }
+//  console.log(average(10,20,30,40))
+
+// function emailValidator(email) {
+//     return email.includes("@");
+// }
+
+// function passwordValidator(password) {
+//     return password.length >= 8
+
+// }
+
+// function formValidator(email, password) {
+//     if (emailValidator(email) && passwordValidator(password)) {
+//         return "form valid";
+//     } else {
+//         return "form invalid";
+    
+
+
+
+
+// }
+
+// console.log(formValidator("aasim@gmail.com","12334567"))
+
+// }
